@@ -1,13 +1,15 @@
 # Array
 
 The JavaScript Array class is a global object that is used in the construction of arrays; which are high-level, list-like objects.
+
 Array 전역 객체는 배열을 생성할 때 사용하는 리스트 형태의 객체입니다.
+
 
 ### Index
 - JavaScript arrays are zero-indexed. Using an invalid index number returns `undefined`.
 - Valid Index Scope : 0 ~ length-1
 
-### `.length`
+### length
 - A JS array's `length` property and numerical properties are connected.
 - e.g., `join()`, `slice()`, `indexOf()`, `push()`, ...
 
@@ -40,14 +42,14 @@ console.log(fruits['10x']); // (O) works properly
 
 ----
 
-## Common Operations
+## 🌟 Common Operations
 ### Create
 ```javascript
 const fruits = ["Apple", "Banana"];
 ```
 
 ### forEach
-- Parameters: currentValue, index, array
+Parameters: currentValue, index, array
 ```javascript
 const fruits = ["Apple", "Banana"];
 fruits.forEach((currentValue, index, array) => {
@@ -60,6 +62,7 @@ fruits.forEach((currentValue, index, array) => {
 
 ### push, pop
 `push`: Add an item to the end of an Array
+
 `pop`: Remove an item from the end of an Array
 ```javascript
 const fruits = ["Apple", "Banana"];
@@ -74,6 +77,7 @@ fruits.pop();  // remove Orange from the end
 
 ### shift, unshift
 `shift`: Remove an item from the beginning of an Array
+
 `unshift`: Add an item to the beginning of an Array
 ```javascript
 const fruits = ["Apple", "Banana"];
@@ -226,6 +230,7 @@ numbers.sort((a, b) => a - b);
 
 ### Regex (Regular Expression)
 The result of a match between a `RegExp` and a string can create a JS Array.
+
 e.g., `RegExp.exec()`, `String.match()`, `String.replace()`
 ```javascript
 const myRegex = /d(b+)(d)/i
