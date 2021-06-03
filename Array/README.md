@@ -1,13 +1,15 @@
 # Array
 
 The JavaScript Array class is a global object that is used in the construction of arrays; which are high-level, list-like objects.
+
 Array 전역 객체는 배열을 생성할 때 사용하는 리스트 형태의 객체입니다.
+
 
 ### Index
 - JavaScript arrays are zero-indexed. Using an invalid index number returns `undefined`.
 - Valid Index Scope : 0 ~ length-1
 
-### `.length`
+### length
 - A JS array's `length` property and numerical properties are connected.
 - e.g., `join()`, `slice()`, `indexOf()`, `push()`, ...
 
@@ -40,7 +42,7 @@ console.log(fruits['10x']); // (O) works properly
 
 ----
 
-## Common Operations
+## 🌟 Common Operations
 ### Create
 ```javascript
 const fruits = ["Apple", "Banana"];
