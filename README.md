@@ -1,9 +1,9 @@
 # JavaScript-DataStructure-and-Algorithms
 
 ### Data Structure
-|   | DataStructure  |  Code  |   |
+|   | DataStructure  |  Description  | Problems  |
 |---|---|---|---|
-| 1  | Array  |   |   |
+| 1  | Array  | [Description](https://github.com/DeveloperCookie/JavaScript-DataStructure-and-Algorithms/tree/main/Array)  |   |
 | 2  | List  |   |   |
 | 3  | Stack  |   |   |
 | 4  | Queue  |   |   |
