@@ -9,6 +9,7 @@ Last In - First Out
 5. isEmpty
 6. getStack
 7. search
+8. clear
 
 ### Use cases
 - 이전의 작업 내용을 저장해둬야할 때 사용 
