@@ -5,7 +5,7 @@
 |---|---|---|---|
 | 1  | Array  | [Description](https://github.com/DeveloperCookie/JavaScript-DataStructure-and-Algorithms/tree/main/Array)  |   |
 | 2  | List  |   |   |
-| 3  | Stack  | [Description](https://github.com/DeveloperCookie/JavaScript-DataStructure-and-Algorithms/blob/main/Stack/README.md)  |   |
+| 3  | Stack  | [Description](https://github.com/DeveloperCookie/JavaScript-DataStructure-and-Algorithms/blob/main/Stack/README.md)  | [Problems](https://github.com/DeveloperCookie/JavaScript-DataStructure-and-Algorithms/issues?q=is%3Aissue+is%3Aclosed+label%3AStack)  |
 | 4  | Queue  |   |   |
 | 5  | Linked List  |   |   |
 | 6  | Double Linked List  |   |   |
