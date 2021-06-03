@@ -49,7 +49,7 @@ const fruits = ["Apple", "Banana"];
 ```
 
 ### forEach
-- Parameters: currentValue, index, array
+Parameters: currentValue, index, array
 ```javascript
 const fruits = ["Apple", "Banana"];
 fruits.forEach((currentValue, index, array) => {
@@ -62,6 +62,7 @@ fruits.forEach((currentValue, index, array) => {
 
 ### push, pop
 `push`: Add an item to the end of an Array
+
 `pop`: Remove an item from the end of an Array
 ```javascript
 const fruits = ["Apple", "Banana"];
@@ -76,6 +77,7 @@ fruits.pop();  // remove Orange from the end
 
 ### shift, unshift
 `shift`: Remove an item from the beginning of an Array
+
 `unshift`: Add an item to the beginning of an Array
 ```javascript
 const fruits = ["Apple", "Banana"];
@@ -135,6 +137,7 @@ console.log(fruits.join('-'));
 
 ### Regex (Regular Expression)
 The result of a match between a `RegExp` and a string can create a JS Array.
+
 e.g., `RegExp.exec()`, `String.match()`, `String.replace()`
 ```javascript
 const myRegex = /d(b+)(d)/i
